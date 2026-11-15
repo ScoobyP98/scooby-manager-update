@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "version": "1.0.0",
-  "pkg_version": "01.18",
+  "version": "1.0.1",
+  "pkg_version": "01.20",
   "title_id": "SCBY00001",
   "content_id": "IV0000-SCBY00001_00-SCOOBYOP00000000",
-  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.18-4ade1f0687c4.pkg",
-  "sha256": "4ade1f0687c4874ccf42859834892fc7487c9c47b40c562159ec60287343cdb5",
+  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.20-de7452400c0c.pkg",
+  "sha256": "de7452400c0cd9d2902b4890fb6846fb591b4d4ac1a7e4a1d73755a9e94a7de2",
   "bytes": 32899072,
   "force_update": false,
   "minimum_version": "1.0.0",
-  "notes": "Faster startup without the splash subtitle, RGB theme picker, USB browsing, Notepad editing and desktop theme updates."
+  "notes": "Settings, keyboard lifecycle, storage browsing and Home resume fixes. Automatic updates are off by default."
 }
