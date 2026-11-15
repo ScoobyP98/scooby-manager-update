@@ -4,10 +4,10 @@
   "pkg_version": "01.18",
   "title_id": "SCBY00001",
   "content_id": "IV0000-SCBY00001_00-SCOOBYOP00000000",
-  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.18-15611a7effc3.pkg",
-  "sha256": "15611a7effc3be5a11ecf792e0d2bffc9e34f47c81593d9739a1e1f1b7de6c6a",
+  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.18-4ade1f0687c4.pkg",
+  "sha256": "4ade1f0687c4874ccf42859834892fc7487c9c47b40c562159ec60287343cdb5",
   "bytes": 32899072,
   "force_update": false,
   "minimum_version": "1.0.0",
-  "notes": "RGB theme picker, USB browsing improvements, Notepad editing, splash screen and desktop theme updates."
+  "notes": "Faster startup without the splash subtitle, RGB theme picker, USB browsing, Notepad editing and desktop theme updates."
 }
