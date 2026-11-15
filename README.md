@@ -1,10 +1,18 @@
 # Scooby Manager updates
 
-Update manifest: https://scoobyp98.github.io/scooby-manager-update/version.json
+Canonical update manifest: https://scoobyp98.github.io/scooby-manager-update/scooby-manager/version.json
+
+The repository homepage redirects to https://scoobymenu.cc/. Release manifests
+and downloads live under `scooby-manager/`; packages and matching relink archives
+live under `scooby-manager/packages/`.
+
+The root `version.json` remains an identical compatibility mirror because
+already built package01.18 checks that URL. Both manifests point to the same
+nested package download. Keep this mirror when publishing future releases.
 
 Enable GitHub Pages in this repository's **Settings → Pages**, using **Deploy
 from a branch → main → /(root)**. The `.nojekyll` file keeps the JSON and package
-downloads unchanged. The app checks this address over HTTPS.
+downloads unchanged. The app checks its configured manifest address over HTTPS.
 
 ## Publish a release
 
@@ -24,7 +32,8 @@ The publisher uses the validated build receipt and checks the actual PKG title,
 content ID, version, complete byte count and SHA-256. Do not change the version
 number in the published JSON without building the corresponding package.
 It copies and hash-checks both immutable artifacts first, then atomically writes
-`version.json` last. A failed copy leaves the existing manifest unchanged.
+`scooby-manager/version.json` last, followed by its byte-identical root mirror.
+A failed copy leaves both existing manifests unchanged.
 
 `-ForceUpdate` removes the **Later** option for that offered release.
 `-MinimumVersion 1.1.0` requires an update for older app versions. These values

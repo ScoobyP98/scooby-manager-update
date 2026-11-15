@@ -19,10 +19,13 @@ $bundle="Scooby-Manager-$($receipt.package_version)-$prefix-relink.zip"
 $bundleSource=Join-Path $app "out/$bundle"
 if(-not(Test-Path -LiteralPath $bundleSource -PathType Leaf)) { throw 'Build the matching relink companion first.' }
 if($receipt.relink_companion -cne $bundle) { throw 'Build receipt does not identify this matching relink companion.' }
-$url="https://scoobyp98.github.io/scooby-manager-update/packages/$leaf"
-$manifest=Join-Path $site 'version.json'
-$packages=Join-Path $site 'packages'
+$url="https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/$leaf"
+$release=Join-Path $site 'scooby-manager'
+$manifest=Join-Path $release 'version.json'
+$compatibility=Join-Path $site 'version.json'
+$packages=Join-Path $release 'packages'
 if((Get-Item -LiteralPath $site -Force).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Linked publication directory refused.' }
+if((Test-Path -LiteralPath $release) -and ((Get-Item -LiteralPath $release -Force).Attributes -band [IO.FileAttributes]::ReparsePoint)) { throw 'Linked release directory refused.' }
 if((Test-Path -LiteralPath $packages) -and ((Get-Item -LiteralPath $packages -Force).Attributes -band [IO.FileAttributes]::ReparsePoint)) { throw 'Linked packages directory refused.' }
 New-Item -ItemType Directory -Path $packages -Force | Out-Null
 function Test-Companion([string]$Path) {
@@ -59,4 +62,10 @@ Test-Companion (Join-Path $packages $bundle)
 # hash-checked. The generator verifies the copied PKG's full metadata/hash and
 # uses its existing atomic manifest writer; a failed copy cannot advance it.
 & (Join-Path $app 'scripts/New-UpdateManifest.ps1') -PackageUrl $url -PackagePath (Join-Path $packages $leaf) -OutputPath $manifest -ForceUpdate:$ForceUpdate -MinimumVersion $MinimumVersion -Notes $Notes | Out-Null
+# Already distributed01.18 checks the root URL. Publish an exact byte mirror
+# only after canonical generation succeeds, using the same atomic writer.
+. (Join-Path $app 'scripts/Version-Tools.ps1')
+$prior=$null
+if([IO.File]::Exists($compatibility)){$prior=Read-SMBytes $compatibility 16384}
+Write-SMAtomic $compatibility (Read-SMBytes $manifest 16384) $prior
 Write-Host "Prepared $($receipt.version) / PKG $($receipt.package_version). Review and publish this repository."
