@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "version": "1.0.1",
-  "pkg_version": "01.20",
+  "version": "1.0.0",
+  "pkg_version": "01.58",
   "title_id": "SCBY00001",
   "content_id": "IV0000-SCBY00001_00-SCOOBYOP00000000",
-  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.20-de7452400c0c.pkg",
-  "sha256": "de7452400c0cd9d2902b4890fb6846fb591b4d4ac1a7e4a1d73755a9e94a7de2",
-  "bytes": 32899072,
+  "package_url": "https://scoobyp98.github.io/scooby-manager-update/scooby-manager/packages/Scooby-PS4-Manager-01.58-a00ff70dbe27.pkg",
+  "sha256": "a00ff70dbe27cae079ebdb70ddcdccddbde8a3229ee86f6c219711e5f3142113",
+  "bytes": 33685504,
   "force_update": false,
   "minimum_version": "1.0.0",
-  "notes": "Settings, keyboard lifecycle, storage browsing and Home resume fixes. Automatic updates are off by default."
+  "notes": "Scooby Manager 1.0.0 (PKG 01.58) adds media and package previews, compact transfer dialogs, and improvements to File Explorer, Games/Apps and PKG Installer."
 }
