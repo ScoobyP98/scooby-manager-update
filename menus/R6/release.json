@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "product": "ScoobyR6",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "channel": "release",
   "titleId": "CUSA01788",
   "appVersion": "03.71",
@@ -12,13 +12,13 @@
   "files": [
     {
       "name": "ScoobyR6.sprx",
-      "bytes": 5354176,
-      "sha256": "b85e218e99ccd762146e13c5b79d190228fc85ab7022cfdba70a6b2e67eb1ee2"
+      "bytes": 5353200,
+      "sha256": "ddc8e0d79fa7ce62d80eb46749ea083ba0ca9c2b690930569281790edf38235f"
     },
     {
       "name": "ScoobyR6-CUSA01788-03.71.zip",
-      "bytes": 3052058,
-      "sha256": "e8d633b26b3daf65323b47d1fbe22da6e9c13ee5914eba6ff1cf08fc6348092d"
+      "bytes": 3050027,
+      "sha256": "cc65c11b3a8d382a47d336c3c7b72293b5394d38687b52d5150c627667e62a72"
     }
   ]
 }
