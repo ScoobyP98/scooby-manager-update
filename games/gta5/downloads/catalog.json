@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "platform": "ps4",
+  "game": "gta5",
+  "categories": [
+    "configs",
+    "themes",
+    "images",
+    "languages",
+    "outfits",
+    "maps",
+    "vehicles",
+    "addons",
+    "animations",
+    "custom-textures",
+    "list-ui",
+    "powers",
+    "tools"
+  ],
+  "items": []
+}

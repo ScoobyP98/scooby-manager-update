@@ -3,13 +3,45 @@
   "platform": "ps4",
   "games": [
     {
+      "id": "r6",
+      "name": "Rainbow Six Siege",
+      "configured_version": "1.0.3",
+      "available": true,
+      "version_url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/version.json",
+      "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/downloads/catalog.json"
+    },
+    {
+      "id": "rdr2",
+      "name": "Red Dead Redemption 2",
+      "configured_version": "1.0.0",
+      "available": false,
+      "version_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/version.json",
+      "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/downloads/catalog.json"
+    },
+    {
+      "id": "gta5",
+      "name": "Grand Theft Auto V",
+      "configured_version": "1.0.0",
+      "available": false,
+      "version_url": "https://scoobyp98.github.io/scooby-manager-update/games/gta5/version.json",
+      "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/gta5/downloads/catalog.json"
+    },
+    {
       "id": "overwatch",
       "name": "Overwatch",
       "configured_version": "1.0.0",
       "available": true,
-      "channel": "beta",
       "version_url": "https://scoobymenu.cc/console/downloads/overwatch/version.json",
-      "resources_url": "https://scoobymenu.cc/console/downloads/overwatch/downloads/catalog.json"
+      "resources_url": "https://scoobymenu.cc/console/downloads/overwatch/downloads/catalog.json",
+      "channel": "beta"
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "configured_version": "1.0.0",
+      "available": false,
+      "version_url": "https://scoobyp98.github.io/scooby-manager-update/games/fortnite/version.json",
+      "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/fortnite/downloads/catalog.json"
     }
   ]
 }

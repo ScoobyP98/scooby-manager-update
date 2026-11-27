@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "platform": "ps4",
+  "game": "r6",
+  "product": "ScoobyR6",
+  "version": "1.0.3",
+  "channel": "release",
+  "title_id": "CUSA01788",
+  "app_version": "03.71",
+  "stable_release_ready": false,
+  "on_console_tested": false,
+  "url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/sprx/1.0.3/bd21d6efe50d/ScoobyR6.sprx",
+  "bytes": 5553376,
+  "sha256": "bd21d6efe50de076138e5571a304b78cbc708f70abdc18c90540784b19f2f962",
+  "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/downloads/catalog.json",
+  "files": [
+    {
+      "name": "ScoobyR6.sprx",
+      "bytes": 5553376,
+      "sha256": "bd21d6efe50de076138e5571a304b78cbc708f70abdc18c90540784b19f2f962",
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/sprx/1.0.3/bd21d6efe50d/ScoobyR6.sprx"
+    },
+    {
+      "name": "ScoobyR6-CUSA01788-03.71.zip",
+      "sha256": "022022f5445a9c04348478d957611456bcb190d82692dd0bcafbff42deb23cda",
+      "bytes": 3120788,
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/sprx/1.0.3/bd21d6efe50d/ScoobyR6-CUSA01788-03.71.zip"
+    }
+  ],
+  "validation": {
+    "schema": 1,
+    "game": "r6",
+    "version": "1.0.3",
+    "bytes": 5553376,
+    "sha256": "bd21d6efe50de076138e5571a304b78cbc708f70abdc18c90540784b19f2f962",
+    "companions": [
+      {
+        "name": "ScoobyR6-CUSA01788-03.71.zip",
+        "sha256": "022022f5445a9c04348478d957611456bcb190d82692dd0bcafbff42deb23cda",
+        "bytes": 3120788
+      }
+    ],
+    "source_sha256": "cfb4128e6ac2878d1127a8225db273f94d79935d05758ab4ed8bbcf7e1e0176b",
+    "static_checks_passed": true,
+    "host_checks_passed": true,
+    "on_console_tested": false,
+    "checked_utc": "2026-11-26T16:13:30.660Z"
+  }
+}
