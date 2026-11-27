@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "platform": "ps4",
+  "games": [
+    {
+      "id": "overwatch",
+      "name": "Overwatch",
+      "configured_version": "1.0.0",
+      "available": true,
+      "channel": "beta",
+      "version_url": "https://scoobymenu.cc/console/downloads/overwatch/version.json",
+      "resources_url": "https://scoobymenu.cc/console/downloads/overwatch/downloads/catalog.json"
+    }
+  ]
+}

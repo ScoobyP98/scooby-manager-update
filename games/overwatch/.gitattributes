@@ -1,0 +1,2 @@
+# Preserve immutable release bytes and checksums on every checkout.
+sprx/** -text
