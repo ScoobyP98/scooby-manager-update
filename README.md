@@ -16,13 +16,15 @@ downloads unchanged. The app checks its configured manifest address over HTTPS.
 
 ## Publish a release
 
-1. Change `version` in `Scooby-Manager/version.json`, for example from `1.0.0`
-   to `1.1.0`. Build the app. Its PS4 package version also has to increase; the
-   app's build script increments it when the semantic version changes.
+1. Run `build.bat` with the `scooby-ps4` checkout next to this repository. The build
+   prompts for the app and PS4 package versions and writes the PKG under
+   `Apps/Scooby-Manager/out` in the source checkout. Set `SCOOBY_MANAGER_ROOT`
+   to the app folder if it is elsewhere. Use `build.bat -NonInteractive` to keep
+   the current versions without a prompt.
 2. Run `Publish-Release.ps1` from this repository after the build:
 
    ```powershell
-   pwsh -File .\Publish-Release.ps1 -AppRoot ..\scooby-ps4\Scooby-Manager -Notes 'What changed'
+   pwsh -File .\Publish-Release.ps1 -AppRoot ..\scooby-ps4\Apps\Scooby-Manager -Notes 'What changed'
    ```
 
 3. Commit and push the generated manifest, package and matching relink archive.

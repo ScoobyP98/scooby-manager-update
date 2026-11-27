@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "platform": "ps4",
+  "game": "rdr2",
+  "product": "ScoobyRDR2",
+  "version": "1.0.0",
+  "channel": "release",
+  "title_id": "CUSA08519",
+  "app_version": "01.32",
+  "stable_release_ready": false,
+  "on_console_tested": false,
+  "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.0/55253edab73a/ScoobyRDR2.sprx",
+  "bytes": 9505856,
+  "sha256": "55253edab73aa45fc7e33b67148527563f73ba42ad13360dd63d099af481a8f0",
+  "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/downloads/catalog.json",
+  "files": [
+    {
+      "name": "ScoobyRDR2.sprx",
+      "bytes": 9505856,
+      "sha256": "55253edab73aa45fc7e33b67148527563f73ba42ad13360dd63d099af481a8f0",
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.0/55253edab73a/ScoobyRDR2.sprx"
+    }
+  ],
+  "validation": {
+    "schema": 1,
+    "game": "rdr2",
+    "version": "1.0.0",
+    "bytes": 9505856,
+    "sha256": "55253edab73aa45fc7e33b67148527563f73ba42ad13360dd63d099af481a8f0",
+    "companions": [],
+    "source_sha256": "a3543364355229d3ffe159021fb071cc1ac8fc69a022b97b5cc500a5c40db598",
+    "static_checks_passed": true,
+    "host_checks_passed": true,
+    "on_console_tested": false,
+    "checked_utc": "2026-11-26T16:31:23.282Z"
+  }
+}
