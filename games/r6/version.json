@@ -25,6 +25,12 @@
       "sha256": "022022f5445a9c04348478d957611456bcb190d82692dd0bcafbff42deb23cda",
       "bytes": 3120788,
       "url": "https://scoobyp98.github.io/scooby-manager-update/games/r6/sprx/1.0.3/bd21d6efe50d/ScoobyR6-CUSA01788-03.71.zip"
+    },
+    {
+      "name": "ScoobyR6-PS4.zip",
+      "url": "https://scoobymenu.cc/console/downloads/r6/1.0.3/bd21d6efe50d/ScoobyR6-PS4.zip",
+      "bytes": 3144617,
+      "sha256": "0976398fe5a48a2e884c5e66ad38c3e6146b95b1f6b9c05eeb6f68fdb4ca25c0"
     }
   ]
 }
