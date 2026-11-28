@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "platform": "ps4",
+  "game": "rdr2",
+  "product": "ScoobyRDR2",
+  "version": "1.0.2",
+  "channel": "beta",
+  "title_id": "CUSA08519",
+  "app_version": "01.32",
+  "stable_release_ready": false,
+  "on_console_tested": false,
+  "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.2/6ce41e41e407/ScoobyRDR2.sprx",
+  "bytes": 7642784,
+  "sha256": "6ce41e41e407827fc1fe8d22eff3b72f95a39d398ab976691d6d6be6a444dc28",
+  "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/downloads/catalog.json",
+  "files": [
+    {
+      "name": "ScoobyRDR2.sprx",
+      "bytes": 7642784,
+      "sha256": "6ce41e41e407827fc1fe8d22eff3b72f95a39d398ab976691d6d6be6a444dc28",
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.2/6ce41e41e407/ScoobyRDR2.sprx"
+    },
+    {
+      "name": "ScoobyPS4-Resources.zip",
+      "sha256": "6eddd8b3a9a2ecb3cc5b4e515dc5746434a79dea2da6a614cd48e31d913316aa",
+      "bytes": 552760,
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.2/6ce41e41e407/ScoobyPS4-Resources.zip"
+    },
+    {
+      "name": "ScoobyRDR2-PS4.zip",
+      "bytes": 3906098,
+      "sha256": "4acc6cc347e2f58601ad6edffc027b1961a7ca92fb63d55682960481316bd2c5",
+      "url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/sprx/1.0.2/6ce41e41e407/ScoobyRDR2-PS4.zip"
+    }
+  ],
+  "minimum_version": "1.0.2",
+  "validation": {
+    "schema": 1,
+    "game": "rdr2",
+    "version": "1.0.2",
+    "bytes": 7642784,
+    "sha256": "6ce41e41e407827fc1fe8d22eff3b72f95a39d398ab976691d6d6be6a444dc28",
+    "companions": [
+      {
+        "name": "ScoobyPS4-Resources.zip",
+        "sha256": "6eddd8b3a9a2ecb3cc5b4e515dc5746434a79dea2da6a614cd48e31d913316aa",
+        "bytes": 552760
+      },
+      {
+        "name": "ScoobyRDR2-PS4.zip",
+        "bytes": 3906098,
+        "sha256": "4acc6cc347e2f58601ad6edffc027b1961a7ca92fb63d55682960481316bd2c5"
+      }
+    ],
+    "source_sha256": "9f219dee11795ad287d4f1028cb27f38d9627aedd68db9053a412de893ecebec",
+    "static_checks_passed": true,
+    "host_checks_passed": true,
+    "on_console_tested": false,
+    "checked_utc": "2026-11-28T14:50:19.312Z"
+  },
+  "version_label": "1.0.2 Beta"
+}

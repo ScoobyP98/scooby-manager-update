@@ -13,7 +13,7 @@
     {
       "id": "rdr2",
       "name": "Red Dead Redemption 2",
-      "configured_version": "1.0.1",
+      "configured_version": "1.0.2",
       "available": true,
       "version_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/version.json",
       "resources_url": "https://scoobyp98.github.io/scooby-manager-update/games/rdr2/downloads/catalog.json"
